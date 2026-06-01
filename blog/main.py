@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from  . import schemas
 from  . import models
-from blog.database import engine
+from  .database import engine
 
 
 app = FastAPI()
